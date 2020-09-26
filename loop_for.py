@@ -18,18 +18,18 @@ for posicao,nome in enumerate(aprovados):
 """
 
 produto = {'nome': 'Caneta Chic', 'preco': 14.99,
-          'importada': True, 'estoque': 793}
+           'importada': True, 'estoque': 793}
 
 
-for chave in produto: # PADRAO PERCORRE SO CHAVES
+for chave in produto:  # PADRAO PERCORRE SO CHAVES
     print(chave)
 
 print("\n")
 
-for valor in produto.values():# .values PERCORRE OS VALORES
+for valor in produto.values():  # .values PERCORRE OS VALORES
     print(valor)
 
 print("\n")
 
-for chave,valor in produto.items(): # .items PERCORRE CHAVE E VALOR AO MESMO TEMPO
+for chave, valor in produto.items():  # .items PERCORRE CHAVE E VALOR AO MESMO TEMPO
     print(chave, '=', valor)
